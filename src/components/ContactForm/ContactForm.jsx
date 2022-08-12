@@ -23,6 +23,7 @@ const ContactForm = ({ onSubmitForm }) => {
         return;
     }
   };
+
   const hendelSubmit = event => {
     event.preventDefault();
     const addContact = {
